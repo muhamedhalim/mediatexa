@@ -1,8 +1,10 @@
 import React from 'react'
+import { Navbar } from '../components/NavBar'
 
 const page = () => {
   return (
-    <div id='contact'>
+    <div>
+       <Navbar/>
       <h1>contact</h1>
     </div>
   )
